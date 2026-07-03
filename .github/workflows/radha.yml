@@ -20,7 +20,7 @@ jobs:
           username: ubuntu
           key: ${{ secrets.PRIVATE_KEY }}
           script: |
-            cd /home/ubuntu/backendbicycle
+            cd /home/ubuntu/backendbicycle/BicycleRenterServer
             git pull origin main 
             npm i  
             sudo npm i pm2 -g 
